@@ -2,7 +2,7 @@
 
 namespace Spray\SerializerBundle\Integration;
 
-use Broadway\Serializer\SerializerInterface as BroadwaySerializerInterface;
+use Broadway\Serializer\Serializer as BroadwaySerializerInterface;
 use Spray\Serializer\SerializerInterface as SpraySerializerInterface;
 
 class BroadwaySerializer implements BroadwaySerializerInterface
