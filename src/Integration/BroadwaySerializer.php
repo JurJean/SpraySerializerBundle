@@ -36,7 +36,7 @@ class BroadwaySerializer implements BroadwaySerializerInterface
      * @param object $object
      * @return array
      */
-    public function serialize($object)
+    public function serialize($object): array
     {
         return array(
             'class' => get_class($object),
